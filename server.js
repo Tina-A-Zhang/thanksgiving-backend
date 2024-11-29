@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 // Your Google Apps Script URL
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbx-KBCp4-j3uHDt7wV9ads4NTOUSWJn7HTJF_53YiwYRJ9BfYkpAT2fhy7HVW6sA5dE/exec";
+  "https://script.google.com/macros/s/AKfycbwc3vUZ2Evxco_GoxuaMV-bnRhh7XnmGt6zg8bkkVLy7JFSen2f4ltQ2QMNxkk7Uden/exec";
 
 app.post("/submit-order", async (req, res) => {
   try {
