@@ -1,0 +1,67 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+bower_components
+
+# Production build
+/build
+
+# MacOS
+.DS_Store
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Editor-specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Test coverage
+/coverage
+
+# Lint cache
+.eslintcache
+
+# Parcel-bundler cache
+.cache
+
+# SASS cache
+.sass-cache
+
+# Optional npm cache directory
+.npm
+
+# Next.js output
+/.next
+
+# Nuxt.js output
+.nuxt
+dist
+
+# Gatsby files
+/.cache/
+/public
+
+# Netlify
+/netlify
+
+# Local Netlify CLI folder
+.netlify/
