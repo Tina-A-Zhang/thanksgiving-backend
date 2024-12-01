@@ -25,7 +25,7 @@ app.post("/submit-order", async (req, res) => {
 
     // Forward request to Google Apps Script
     const response = await axios.post(
-      "https://script.google.com/macros/s/AKfycby9uvyFX1f9tQkCMTVQo9KM2mfCG4q1kA1nQLgpaF_hmEsA29qe6-PGoFNeLDmJnS-G/exec",
+      "https://script.google.com/macros/s/AKfycbwzZclbGNZtowkf3W_mfmE4JnxBf6QQsaF5bEWlrX-K4kOqyuchcu1mIXURVoUi6H6k/exec",
       req.body,
       {
         headers: { "Content-Type": "application/json" },
